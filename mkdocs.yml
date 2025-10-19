@@ -10,6 +10,7 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: es
+  favicon: ./images/logo.jpg
   features:
     - navigation.tabs
     - navigation.sections
@@ -18,6 +19,15 @@ theme:
     - search.share
     - content.code.annotate
     - content.code.copy
+  palette: 
+    # Palette toggle for light mode - scheme: default 
+    toggle: 
+    icon: material/brightness-7  
+    name: Switch to dark mode 
+# Palette toggle for dark mode - scheme: slate 
+  toggle: 
+    icon: material/brightness-4 
+    name: Switch to light mode
 
 plugins:
   - search:
