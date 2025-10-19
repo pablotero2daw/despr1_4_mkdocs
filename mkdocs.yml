@@ -10,7 +10,7 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: es
-  favicon: ./images/logo.jpg
+  favicon: images\favicon.ico
   features:
     - navigation.tabs
     - navigation.sections
